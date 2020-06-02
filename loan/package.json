@@ -1,0 +1,19 @@
+{
+  "name": "loan",
+  "version": "1.0.0",
+  "description": "log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhang jun",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.3.0",
+    "seneca": "^3.21.1",
+    "seneca-balance-client": "^1.2.0",
+    "seneca-entity": "^9.0.1",
+    "seneca-mesh": "^1.5.0",
+    "seneca-mysql-store": "^1.1.0"
+  }
+}
