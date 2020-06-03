@@ -19,7 +19,7 @@ Seneca({ tag: 'API' })
     .test('print')
     .use('mesh', {
         auto: true,
-        host: 'localhost',
+        host: CONFIG_API.host,
         bases: CONFIG_SM,
     })
     .ready(function () {
